@@ -6,12 +6,15 @@ wavethresh (4.6.8)
 CompartmentAnalysis.R
  
 # Usage:
+```
 ChangeIndex(x=input, chrom=chromname, B=999, cut_disagreement=1)
+```
 
 # Example Usage:
 ```
 input = read.table("Sham_10kb.txt")
-ChangeIndex(x=input, chrom="chr1", B=999, cut_disagreement=1)
+res = ChangeIndex(x=input, chrom="chr1", B=999, cut_disagreement=1)
+write.table(res,file="example_output.txt",sep="\t")
 ```
 
 # Details:

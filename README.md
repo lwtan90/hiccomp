@@ -9,8 +9,8 @@ CompartmentAnalysis.R
 ChangeIndex(x=input, chrom=chromname, B=999, cut_disagreement=1)
 
 # Example Usage:
-input = read.table("Sham_10kb.txt")
-ChangeIndex(x=input, chrom="chr1", B=999, cut_disagreement=1)
+input = read.table("Sham_10kb.txt");
+ChangeIndex(x=input, chrom="chr1", B=999, cut_disagreement=1);
 
 # Details:
 input: data frame with 6 columns [produced by Homer PCA analyis] ( <unique_id> <chromosome> <start_position> <end_position> <strand> <PC1_score>)

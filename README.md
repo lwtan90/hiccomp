@@ -26,5 +26,5 @@
 # 6. PC1_score : provided in input
 # 7. Disagreement P : quantified the stability of PC1 classification under model-derived data perturbations
 # 8. Instability Index : frequency 
-# 9. Compartment : Active / Inactive compartment (A|B)
+9. Compartment : Active / Inactive compartment (A|B)
 

@@ -7,7 +7,8 @@ CompartmentAnalysis.R
  
 # Usage:
 ChangeIndex(x=inputfile, chrom=chromname, B=999, cut_disagreement=1)
-Example:
+
+# Example Usage:
 ChangeIndex(x="Sham_10kb.txt", chrom="chr1", B=999, cut_disagreement=1)
 
 # Details:

@@ -11,9 +11,9 @@ ChangeIndex(x="Sham_10kb.txt", chrom="chr1", B=999, cut_disagreement=1)
 
 # Details:
 inputfile: tab-delimited file with 6 columns [produced by Homer PCA analyis] ( <unique_id> <chromosome> <start_position> <end_position> <strand> <PC1_score>)
-chromname: name of chromosome, depending on the format written in inputfile (e.g. "chr1")
-B: The number of subsamples to generate to assess data noise
-cut_disagreement: the cut-off for the disagreement method
+1. chromname: name of chromosome, depending on the format written in inputfile (e.g. "chr1")
+2. B: The number of subsamples to generate to assess data noise
+3. cut_disagreement: the cut-off for the disagreement method
 
 
 # Output:

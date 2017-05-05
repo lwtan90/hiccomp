@@ -19,10 +19,10 @@ write.table(res,file="example_output.txt",sep="\t")
 ```
 
 # Details:
-input: data frame with 6 columns [produced by Homer PCA analyis] ( <unique_id> <chromosome> <start_position> <end_position> <strand> <PC1_score>)
-1. chromname: name of chromosome, depending on the format written in inputfile (e.g. "chr1")
-2. B: The number of subsamples to generate to assess data noise
-3. cut_disagreement: the cut-off for the disagreement method
+1. input: data frame with 6 columns [produced by Homer PCA analyis] ( <unique_id> <chromosome> <start_position> <end_position> <strand> <PC1_score>)
+2. chromname: name of chromosome, depending on the format written in inputfile (e.g. "chr1")
+3. B: The number of subsamples to generate to assess data noise
+4. cut_disagreement: the cut-off for the disagreement method
 
 
 # Output:

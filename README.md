@@ -3,7 +3,7 @@ for manuscript purpose only (scripts created by Motakis Efthymios)
 
 # Dependencies:
 wavethresh (4.6.8)
-
+CompartmentAnalysis.R
  
 # Usage:
 ChangeIndex(x=inputfile, chrom=chromname, B=999, cut_disagreement=1)
